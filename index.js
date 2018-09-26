@@ -56,7 +56,6 @@ module.exports = function(cfg) {
 
 			if (_.isObject(data)) err = _.extend(err, data);
 
-
 			if (cfg.production) {
 				this._errorSend(err);
 			} else {
