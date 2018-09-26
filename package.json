@@ -1,0 +1,32 @@
+{
+  "name": "@esscorp/logger",
+  "version": "0.0.0",
+  "description": "node-loggly-bulk wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esscorp/logger.git"
+  },
+  "keywords": [
+    "logger",
+    "loggly",
+    "node-loggly-bulk",
+    "log"
+  ],
+  "author": "GreenRaccoon23@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esscorp/logger/issues"
+  },
+  "homepage": "https://github.com/esscorp/logger#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@esscorp/eslint": "^2.7.3",
+    "eslint": "^4.19.1",
+    "grunt": "^1.0.3",
+    "grunt-eslint": "^20.2.0"
+  }
+}
