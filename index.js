@@ -5,14 +5,7 @@ var _ = require('underscore');
 var Loggly = require('node-loggly-bulk');
 
 function errToObject(err) {
-
-	var data = {message: err.stack};
-
-	_.each(err, function(value, key) {
-		if (_.has(err, key)) data[key] = value;
-	});
-
-	return data;
+	return _.extend({message: err.stack}, err);
 }
 
 module.exports = function(cfg) {
